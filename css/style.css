@@ -1,0 +1,825 @@
+
+/* -------------------ALL COMMON CSS START HERE ---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+.ashis{
+    background: red;
+    height: 100px;
+}
+.container{
+    position: relative;
+}
+
+/* -----------NAV BAR PART---------------  */
+#navbarNav{
+    margin-left: 200px;
+}
+.nav_text li{
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+.nav_text li a{
+   margin-top: 10px;
+   transition: .4s;
+   position: relative;
+   color: #000000;
+   font-size: 16px;
+   font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+   
+}
+.nav-item button{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #d50a51;
+}
+.nav-link:hover.nav-link::after{
+    opacity: 1;
+    color: #d50a51;
+}
+.sticky_name {
+    background: rgb(128, 0, 0);
+    animation: alamin 1s;
+  }
+  
+  @keyframes alamin {
+    from {
+      top: -100px;
+    }
+  
+    to {
+      top: 0;
+    }
+  }
+
+.nav-link::after{
+    background: url(../images/hover_text_img.png);
+    content: '';
+    position: absolute;
+    height: 20px;
+    width: 52px;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .4s;
+}
+/*------------------------- PART ONE START--------------------------- */
+#first_part{
+    background: url(../images/Valentina_top_background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    z-index: 99;
+    background: #fef9fb;
+}
+
+.nav-item button{
+    vertical-align: middle;
+    height: 50px;
+    width: 200px;
+    vertical-align: middle;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #d50a51;
+    color: #d50a51;
+    transition: .4s;
+}
+.nav-item button:hover{
+   background: #d50a51;
+   color: white;
+}
+.nav-item button img{
+   margin-right:10px;
+   background: #d50a51;
+
+}
+.logo_1{
+    margin-left: -50px;
+}
+
+.writting_part_one{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.writting_part_one h2{
+    color: #8a5e3b;
+    font-size: 61px;
+    line-height: 54px;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+.writting_part_one h1{
+    color: #d50a51;
+    font-size: 84px;
+    line-height: 54px;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 400;
+}
+.writting_part_one p{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #444444;
+    font-size: 14.5px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+#gift_button1{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 47px;
+    width: 230px;
+    background: transparent;
+    color: #d50a51;
+    border-radius: 50px;
+    border: 1px solid #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+#gift_button1:hover{
+   background: #d50a51;
+   color: white;
+}
+
+
+/*------------------------- PART TWO START--------------------------- */
+
+
+#part_two{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: white;
+}
+
+.logo_love{
+    position: relative;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+.love_write{
+  margin-left: 30px;
+    
+}
+.love_write p{
+  color: #444444;
+  font-size: 15px;
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+.logo_love h2{
+    position: absolute;
+    font-size: 24px;
+    top: 20px;
+    left: 60px;
+    color: #666666;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.logo_love h3{
+    position: absolute;
+    font-size: 32px;
+    top: 50px;
+    left: 60px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+/*------------------------- PART THREE START--------------------------- */
+
+#part_three{
+    padding: 100px 0px;
+    background: #fff8e0;
+    
+}
+
+.lovve_wriite p{
+    color: #444444;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0px 51px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.pura_box{
+    position: relative;
+}
+.boro_box{
+    position: absolute;
+    bottom: -120px;
+    left: 470px;
+}
+#proposal_button{
+    margin-top: 10px;
+    left: 250px;
+    position: absolute;
+    height: 45px;
+    width: 170px;
+    background: transparent;
+    color: #d50a51;
+    border-radius: 50px;
+    border: 1px solid #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+#proposal_button:hover{
+   background: #d50a51;
+   color: white;
+}
+#gift_button{
+    margin-top: 10px;
+    position: absolute;
+    left: -450px;
+    height: 45px;
+    width: 130px;
+    background: transparent;
+    color: #d50a51;
+    border-radius: 50px;
+    border: 1px solid #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+#gift_button:hover{
+   background: #d50a51;
+   color: white;
+}
+
+/*------------------------- PART FOUR START--------------------------- */
+#part_four{
+    padding-top: 115px;
+    padding-bottom: 100px;
+    background: white;
+}
+
+.right_partttttt{
+    position: relative;
+    width: 570px;
+    
+}
+
+.ticket_pic img{
+    margin-left: -80px;
+}
+.right_part_love{
+    position: absolute;
+   right: 0px;
+   
+}
+
+.right_part_love h5{
+    position: absolute;
+   right: 55px;
+   top: 20px;
+   color: #666666;
+   font-size: 24.21px;
+   line-height: 34.3px;
+   
+}
+
+
+.right_part_love h4 {
+	right: 50px;
+	position: absolute;
+	top: 50px;
+    color: #d50a51;
+    font-size: 32.28px;
+    line-height: 34.3px;
+    letter-spacing: 1px;
+}
+
+.right_part_love_writtingg{
+    margin-top: 120px;
+    text-align: right;
+   
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.right_part_love_writtingg p{
+   padding-left: 20px;
+    font-size: 15px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+
+#get_ticket{
+    margin-top: 10px;
+    left: 250px;
+    position: absolute;
+    height: 45px;
+    width: 130px;
+    background: transparent;
+    color: #d50a51;
+    border-radius: 50px;
+    border: 1px solid #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+#get_ticket:hover{
+   background: #d50a51;
+   color: white;
+}
+#get_quate{
+    margin-top: 10px;
+    right: 0px;
+    position: absolute;
+    height: 45px;
+    width: 150px;
+    background: transparent;
+    color: #d50a51;
+    border-radius: 50px;
+    border: 1px solid #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    transition: .4s;
+}
+#get_quate:hover{
+   background: #d50a51;
+   color: white;
+}
+
+#part_five{
+    padding: 60px 0px;
+    background: #fef5f9;
+}
+
+.offer_service p{
+font-size: 16px;
+line-height: 26px;
+padding: 0px 0px !important;
+}
+.uporer_box{
+    height: 225px;
+    width: 370px;
+   transition: .4s;
+    padding: 30px;
+    border-right: 3px solid #fef5f9;
+    position: relative;
+}
+.uporer_box:hover{
+    height: 225px;
+    width: 370px;
+    background: #f1f1f1;
+    padding: 30px;
+    border-right: 3px solid #d50a51;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.75);
+}
+
+.uporer_box h5{
+    position: absolute;
+    top: 60px;
+    left: 85px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.nicher_box h5{
+    position: absolute;
+    top: 60px;
+    left: 115px;
+    color: #d50a51;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.uporer_box p{
+  padding: 20px 0px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+
+
+
+
+#part_six{
+    padding: 100px 0px;
+    background: white;
+}
+.picture_one{
+    position: relative;
+    height: 420px;
+    width: 370px;
+}
+.piccccc__one:hover .overlayyyyyyy{
+   opacity: 1;
+   visibility: visible;
+}
+.piccccc__one:hover .ivcon_part{
+   opacity: 1;
+   visibility: visible;
+}
+.overlayyyyyyy h5{
+   left: 50%;
+   transform: translateX(-50%);
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+.overlayyyyyyy p{
+     left: 30px;
+    color: white;
+    position: absolute;
+    bottom:-10px;
+    line-height: auto;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.overlayyyyyyy{
+    position: absolute;
+    height: 420px;
+    width: 370px;
+    background: rgba(0, 0, 0, 0.663);
+    top: 0px;
+    left: 0px;
+    transition: .7s;
+    opacity: 0;
+   visibility: hidden;
+}
+
+
+.piccccc__one{
+    position: relative;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+.ivcon_part{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: white;
+    opacity: 0;
+   visibility: hidden;
+    
+}
+
+.ivcon_part i:hover{
+    color: #d50a51;
+}
+.ivcon_part i{
+    transition: .6s;
+}
+.searchh{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.hearrt{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    
+}
+.ccomment{
+    top: 140px;
+    right: 20px;
+    position: absolute;
+}
+.ddonload{
+    top: 200px;
+    position: absolute;
+    right: 20px;
+}
+#part_seven{
+    
+    background: url(../images/gulapi_back.png);
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* COUNTDOWN PARTTT  */
+
+.counter_part {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.counter_iteam {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    padding-top: 60px;
+    background: transparent;
+    
+    text-align: center;
+    color: #d50a51;
+    
+   
+    font-size: 42px;
+    line-height: 30px;
+   
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 800;
+}
+.counter_iteam h2{
+   color: #444444;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+}
+.counter_iteam img{
+  position: absolute;
+  left: 50%;
+  top: 30px;
+}
+#chuto_love{
+  position: absolute;
+  left: 38%;
+  top: 35px;
+}
+#extra_chuto{
+  position: absolute;
+  left: 44%;
+  top: 11px;
+}
+
+
+#part_eight{
+    padding: 100px;
+}
+
+
+/*------------------- SLIDEERRRRRR PART----------------  */
+
+.slider{
+    width: 1170px;
+ 
+    transition: .9s;
+    
+}
+
+.swiper-wrapper{
+    align-items: center;
+    transition: .9s;
+}
+
+.swiper-slide{
+    height: 295px;
+    width: 570px;
+    background: #fffae2;
+   
+
+}
+.swiper-slide img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid #fffae2;
+}
+.swiper-slide-active{
+    
+    transition: .9s;
+    z-index: 999;
+}
+
+
+.swiper-slide p{
+    font-size: 16px;
+    line-height: 26px;
+    padding: 30px;
+}
+.gulla{
+    height: 100px;
+    width: 100px;
+    background: #fbdfe6;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+}
+
+.swiper-slide h5{
+    position: absolute;
+    left: 150px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.swiper-slide h4{
+    position: absolute;
+    left: 150px;
+    bottom: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.swiper-button-next{
+   position: absolute;
+    color: transparent;
+}
+.swiper-button-next i{
+    position: absolute;
+   color: #d50a51;
+  
+   z-index: 999999;
+}
+.swiper-button-prev{
+    position: absolute;
+    color: transparent;
+}
+.swiper-button-prev i{
+    position: absolute;
+   color: #d50a51;
+
+  left: 0px;
+   z-index: 999999;
+}
+
+.form_part{
+top: -50px;
+    margin-top: 50px;
+    z-index: 9999999;
+    height: 110px;
+    background: #d50a51;
+    border-radius: 60px;
+    position: relative;
+}
+.form_part img{
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.form_part h2{
+    line-height: 24px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 160px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.form_part p{
+    line-height: 24px;
+    font-size: 14px;
+    
+    color: white;
+    position: absolute;
+    left: 160px;
+    bottom: 0px;
+   
+}
+#name_form{
+    height: 35px;
+    width: 270px;
+    color: white;
+    background: transparent;
+    position: absolute;
+    left: 500px;
+    top: 50%;
+    border: 1px solid white;
+    transform: translateY(-50%);
+}
+#mail_form{
+    height: 35px;
+    width: 230px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    position: absolute;
+    left: 800px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#mail_form{
+    height: 35px;
+    width: 230px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    position: absolute;
+    left: 800px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#telegram_btn{
+    height: 35px;
+    width: 40px;
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    position: absolute;
+    right: 86px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+/* --------------------SLIDEERRRRRR PART------------------  */
+#part_nine{
+    background: #fbdbe9;
+    height: 430px;
+}
+.middle_logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+
+.left_part{
+    padding-top: 90px;
+    position: relative;
+   padding-left: 50px;
+   padding-bottom: 100px;
+    
+}
+.left_part i{
+    position: absolute;
+    color: #d50a51;
+
+}
+.left_part h4{
+    position: absolute;
+    top: 85px;
+    left: 80px;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+.left_part h5{
+    position: absolute;
+    top: 105px;
+    left: 80px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.follow p{
+    color: #d50a51;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.iconz i{
+color: white;
+padding: 8px;
+color: #d50a51;
+border: 2px solid #d50a51;
+border-radius: 50%;
+transition: .4s;
+}
+.iconz i:hover{
+background: #d50a51;
+color: #f1f1f1;
+}
+.iconz a{
+background: transparent;
+}
+
+
+#part_ten{
+   height: 55px;
+    background-color: #fce1ed;
+}
+.last a{
+    color: #d50a51;
+}
+.last p{
+    padding-top: 15px;
+    vertical-align: middle;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+}
